@@ -1,0 +1,1 @@
+export default (cmd: import('koishi').Command) => void 0;
