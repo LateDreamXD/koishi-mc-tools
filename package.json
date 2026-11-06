@@ -2,20 +2,25 @@
   "name": "@latedream/koishi-plugin-mc-tools",
   "description": "晚梦的 Minecraft 工具",
   "version": "0.0.1",
-  "main": "lib/index.js",
-  "typings": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "files": [
-    "lib",
     "dist"
   ],
+  "scripts": {
+    "build": "tsdown"
+  },
   "license": "MIT",
-  "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
+  "dependencies": {
+    "ip-based-location": "^1.0.3",
+    "node-html-parser": "^9.0.5",
+    "tsdown": "^0.23.2"
+  },
   "peerDependencies": {
     "koishi": "^4.18.7"
   }
